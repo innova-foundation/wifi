@@ -33,7 +33,7 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58dcheck": "https://github.com/carsenk/bs58dcheck",
+    "bs58dcheck": "https://github.com/bitcoinjs/bs58check",
     "safe-buffer": "^5.1.1"
   },
   "devDependencies": {
