@@ -1,28 +1,28 @@
 {
-  "name": "wifd",
+  "name": "wifi",
   "version": "2.0.6",
-  "description": "Denarius Wallet Import Format (WIF) decoding/encoding module",
+  "description": "Innova Wallet Import Format (WIF) decoding/encoding module",
   "author": "Daniel Cousens",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenk/wifd.git"
+    "url": "https://github.com/innova-foundation/wifi.git"
   },
   "bugs": {
-    "url": "https://github.com/carsenk/wifd/issues"
+    "url": "https://github.com/innova-foundation/wifi/issues"
   },
-  "homepage": "https://github.com/carsenk/wifd",
+  "homepage": "https://github.com/innova-foundation/wifi",
   "keywords": [
-    "denarius",
+    "innova",
     "base58",
-    "base58dcheck",
+    "base58icheck",
     "decode",
     "decoding",
     "encoding",
     "encode",
     "key",
     "private",
-    "wifd"
+    "wifi"
   ],
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58dcheck": "https://github.com/bitcoinjs/bs58check",
+    "bs58icheck": "https://github.com/bitcoinjs/bs58check",
     "safe-buffer": "^5.1.1"
   },
   "devDependencies": {

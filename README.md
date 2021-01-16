@@ -1,16 +1,16 @@
-# WIFD
+# WIFI
 [![TRAVIS](https://secure.travis-ci.org/bitcoinjs/wif.png)](http://travis-ci.org/bitcoinjs/wif)
 [![NPM](http://img.shields.io/npm/v/wif.svg)](https://www.npmjs.org/package/wif)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-Denarius Wallet Import Format encoding/decoding module.
+Innova Wallet Import Format encoding/decoding module.
 
 
 ## Example
 
 ``` javascript
-var wif = require('wifd')
+var wif = require('wifi')
 var privateKey = Buffer.from('0000000000000000000000000000000000000000000000000000000000000001', 'hex')
 var key = wif.encode(128, privateKey, true) // for the testnet use: wif.encode(239, ...
 // => KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn

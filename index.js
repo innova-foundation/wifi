@@ -1,4 +1,4 @@
-var bs58dcheck = require('bs58dcheck')
+var bs58icheck = require('bs58icheck')
 var Buffer = require('safe-buffer').Buffer
 
 function decodeRaw (buffer, version) {
@@ -42,13 +42,13 @@ function encodeRaw (version, privateKey, compressed) {
 }
 
 function decode (string, version) {
-  return decodeRaw(bs58dcheck.decode(string), version)
+  return decodeRaw(bs58icheck.decode(string), version)
 }
 
 function encode (version, privateKey, compressed) {
-  if (typeof version === 'number') return bs58dcheck.encode(encodeRaw(version, privateKey, compressed))
+  if (typeof version === 'number') return bs58icheck.encode(encodeRaw(version, privateKey, compressed))
 
-  return bs58dcheck.encode(
+  return bs58icheck.encode(
     encodeRaw(
       version.version,
       version.privateKey,
